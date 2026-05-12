@@ -1,136 +1,267 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LuxRent | Enterprise Real Estate & Lead Architecture</title>
-    <link rel="stylesheet" href="https://cdnj.cloudflare.com/ajax/libs/font-awsome">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnj.cloudflare.com/ajax/libs/font-awsome"
+    />
+  </head>
+  <body>
     <!--Header section-->
     <header class="main-nav">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <a href="#">
-                    <i class="fa-solid fa-gem gold-icon"></i>
-                    <span class="logo-text">LuxRent</span>
-                </a>
-            </div>
-
-            <nav class="nav-links">
-                <a href="#home" data-link="active">Home</a>
-                <a href="#services">Services</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#specs">Specs</a>
-                <a href="#contact">Contact</a>
-            </nav>
-
-            <div class="nav-cta">
-                <a href="#contact" class="nav-btn">Client Portal</a>
-            </div>
+      <div class="nav-container">
+        <div class="nav-logo">
+          <a href="#">
+            <i class="fa-solid fa-gem gold-icon"></i>
+            <span class="logo-text">LuxRent</span>
+          </a>
         </div>
+
+        <nav class="nav-links">
+          <a href="#home" data-link="active">Home</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#specs">Specs</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-cta">
+          <a href="#contact" class="nav-btn">Client Portal</a>
+        </div>
+      </div>
     </header>
     <main>
-    <!-- Hero section-->
-     <section id="home" class="hero-viewport">
-            <div class="hero-overlay">
-                <div class="hero-card" data-state="premium">
-                    <div class="card-inner">
-                        <span class="top-label">Establishment 2024</span>
-                        <h1 class="display-title">Lead Architecture <br>& Secure Assets</h1>
-                        <p class="hero-description">
-                            Nairobi's premier firm for high-performance real estate infrastructure. 
-                            We build with the precision of code and the strength of stone.
-                        </p>
-                        <div class="cta-wrapper">
-                            <a href="#contact" class="cta-btn primary">Start Consultation</a>
-                            <a href="#portfolio" class="cta-btn secondary">View Projects</a>
-                        </div>
-                    </div>
-                </div>
+      <!-- Hero section-->
+      <section id="home" class="hero-viewport">
+        <div class="hero-overlay">
+          <div class="hero-card" data-state="premium">
+            <div class="card-inner">
+              <span class="top-label">Establishment 2024</span>
+              <h1 class="display-title">
+                Lead Architecture <br />& Secure Assets
+              </h1>
+              <p class="hero-description">
+                Nairobi's premier firm for high-performance real estate
+                infrastructure. We build with the precision of code and the
+                strength of stone.
+              </p>
+              <div class="cta-wrapper">
+                <a href="#contact" class="cta-btn primary"
+                  >Start Consultation</a
+                >
+                <a href="#portfolio" class="cta-btn secondary">View Projects</a>
+              </div>
             </div>
-        </section>
-        
-            <!-- 2. SERVICES SECTION -->
-        <section id="services" class="content-section">
-            <div class="section-heading">
-                <h2>Professional Capability Matrix</h2>
-                <p>Mission-critical property services across three core pillars.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. SERVICES SECTION -->
+      <section id="services" class="content-section">
+        <div class="section-heading">
+          <h2>Professional Capability Matrix</h2>
+          <p>Mission-critical property services across three core pillars.</p>
+        </div>
+
+        <div class="table-container">
+          <table class="enterprise-table">
+            <thead>
+              <tr>
+                <th><i class="fa-solid fa-layer-group"></i> Division</th>
+                <th><i class="fa-solid fa-list-check"></i> Core Operations</th>
+                <th>
+                  <i class="fa-solid fa-shield-halved"></i> Security Level
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Asset Management</strong></td>
+                <td>Portfolio scaling, ROI analysis, and tenant vetting.</td>
+                <td><span class="status-badge">High (Encrypted)</span></td>
+              </tr>
+              <tr>
+                <td><strong>DevSecOps Infra</strong></td>
+                <td>
+                  Building automation, IoT security, and smart monitoring.
+                </td>
+                <td><span class="status-badge gold">Enterprise Grade</span></td>
+              </tr>
+              <tr>
+                <td><strong>Strategic Advisory</strong></td>
+                <td>
+                  Market scraping, PricePulse KE monitoring, and acquisitions.
+                </td>
+                <td><span class="status-badge">Confidential</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <hr class="separator" />
+      <!-- 3. PORTFOLIO & SPECS -->
+      <section id="portfolio" class="content-section">
+        <div class="section-heading">
+          <h2>Project Portfolio</h2>
+        </div>
+
+        <figure class="featured-image">
+          <img
+            src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80"
+            alt="Modern corporate office interior"
+          />
+          <figcaption>
+            LuxeRent Westlands Hub — A testament to modular architecture.
+          </figcaption>
+        </figure>
+
+        <div id="specs" class="specs-grid-container">
+          <div class="section-heading">
+            <h3>Technical Specifications</h3>
+            <p>The "Stone & Amber" Protocol</p>
+          </div>
+
+          <div class="card-grid">
+            <article class="spec-card">
+              <div class="icon-box"><i class="fa-solid fa-bolt"></i></div>
+              <h3>Power Redundancy</h3>
+              <p>Dual-grid backup with automated failover systems.</p>
+            </article>
+
+            <article class="spec-card" data-featured="true">
+              <div class="icon-box">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+              <h3>Secured Perimeter</h3>
+              <p>Biometric MFAs and 24/7 digital monitoring suites.</p>
+            </article>
+
+            <article class="spec-card">
+              <div class="icon-box">
+                <i class="fa-solid fa-network-wired"></i>
+              </div>
+              <h3>Unified Fiber</h3>
+              <p>Pre-terminated gigabit backbone for all enterprise units.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <hr class="separator" />
+
+      <!-- 5. CONTACT SECTION -->
+      <section id="contact" class="content-section">
+        <div class="contact-card">
+          <div class="section-heading">
+            <h2>Secure Inquiry</h2>
+            <p>All inquiries are handled with strict NDA protocols.</p>
+          </div>
+
+          <form action="#" method="POST" class="enterprise-form">
+            <div class="form-group">
+              <label for="name">Identification</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Full Name"
+                required
+              />
             </div>
-            
-            <div class="table-container">
-                <table class="enterprise-table">
-                    <thead>
-                        <tr>
-                            <th><i class="fa-solid fa-layer-group"></i> Division</th>
-                            <th><i class="fa-solid fa-list-check"></i> Core Operations</th>
-                            <th><i class="fa-solid fa-shield-halved"></i> Security Level</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><strong>Asset Management</strong></td>
-                            <td>Portfolio scaling, ROI analysis, and tenant vetting.</td>
-                            <td><span class="status-badge">High (Encrypted)</span></td>
-                        </tr>
-                        <tr>
-                            <td><strong>DevSecOps Infra</strong></td>
-                            <td>Building automation, IoT security, and smart monitoring.</td>
-                            <td><span class="status-badge gold">Enterprise Grade</span></td>
-                        </tr>
-                        <tr>
-                            <td><strong>Strategic Advisory</strong></td>
-                            <td>Market scraping, PricePulse KE monitoring, and acquisitions.</td>
-                            <td><span class="status-badge">Confidential</span></td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="form-group">
+              <label for="email">Work Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="email@company.com"
+                required
+              />
             </div>
-        </section>
-
-        <hr class="separator">
-        <!-- 3. PORTFOLIO & SPECS -->
-        <section id="portfolio" class="content-section">
-            <div class="section-heading">
-                <h2>Project Portfolio</h2>
+            <div class="form-group">
+              <label>Investment Tier</label>
+              <div class="radio-group">
+                <label
+                  ><input type="radio" name="budget" value="1M" /> Under 1M
+                  KES</label
+                >
+                <label
+                  ><input type="radio" name="budget" value="1M-10M" /> 1M - 10M
+                  KES</label
+                >
+                <label
+                  ><input type="radio" name="budget" value="10M+" />
+                  Institutional (10M+)</label
+                >
+              </div>
             </div>
-            
-            <figure class="featured-image">
-                <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80" alt="Modern corporate office interior">
-                <figcaption>LuxeRent Westlands Hub — A testament to modular architecture.</figcaption>
-            </figure>
-
-            <div id="specs" class="specs-grid-container">
-                <div class="section-heading">
-                    <h3>Technical Specifications</h3>
-                    <p>The "Stone & Amber" Protocol</p>
-                </div>
-
-                <div class="card-grid">
-                    <article class="spec-card">
-                        <div class="icon-box"><i class="fa-solid fa-bolt"></i></div>
-                        <h3>Power Redundancy</h3>
-                        <p>Dual-grid backup with automated failover systems.</p>
-                    </article>
-
-                    <article class="spec-card" data-featured="true">
-                        <div class="icon-box"><i class="fa-solid fa-shield-halved"></i></div>
-                        <h3>Secured Perimeter</h3>
-                        <p>Biometric MFAs and 24/7 digital monitoring suites.</p>
-                    </article>
-
-                    <article class="spec-card">
-                        <div class="icon-box"><i class="fa-solid fa-network-wired"></i></div>
-                        <h3>Unified Fiber</h3>
-                        <p>Pre-terminated gigabit backbone for all enterprise units.</p>
-                    </article>
-                </div>
+            <button type="submit" class="cta-btn primary full-width">
+              <i class="fa-solid fa-paper-plane"></i> Transmit Request
+            </button>
+          </form>
+        </div>
+      </section>
+      <!-- FOOTER -->
+      <footer class="site-footer">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h3>LuxRent Group</h3>
+            <p>
+              Architecting East African real estate through precision
+              technology.
+            </p>
+            <ul class="contact-list">
+              <li>
+                <i class="fa-solid fa-location-dot"></i> Westlands, Nairobi
+              </li>
+              <li><i class="fa-solid fa-envelope"></i> desk@luxerent.co.ke</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Navigation</h4>
+            <nav class="footer-links">
+              <a href="#home">Home Base</a>
+              <a href="#services">Our Capabilities</a>
+              <a href="#portfolio">Project Portfolio</a>
+              <a href="#contact">Secure Inquiry</a>
+            </nav>
+          </div>
+          <div class="footer-col">
+            <h4>Regional Hubs</h4>
+            <ul class="simple-list">
+              <li>Nairobi, KE (HQ)</li>
+              <li>Mombasa, KE (Logistics)</li>
+              <li>Kampala, UG (Strategic)</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Connect</h4>
+            <div class="social-links">
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
             </div>
-        </section>
-
-        <hr class="separator">
-        
-        
-    </main>       
-</body>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="legal">
+            <a href="#">Privacy</a> | <a href="#">Cookies</a> |
+            <a href="#">Terms</a>
+          </div>
+          <div class="credentials">
+            <i class="fa-solid fa-certificate"></i> DevSecOps #2026-45
+          </div>
+        </div>
+        <div class="copyright">
+          <i class="fa-solid fa-shield-heart gold-icon"></i><br />
+          <strong>Secure Real Estate Infrastructure</strong><br />
+          <small>&copy; 2026 LuxRent Consulting Group.</small>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>

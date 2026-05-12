@@ -74,16 +74,14 @@ Simply open the index.html file in your preferred browser to wiew to current bui
 
 
 ##  Project Structure
-
-text
+```text
 LuxRent/
 ├── assets/          # Images, logos, and property media
 ├── css/             # Stylesheets (Stone & Amber theme)
 ├── index.html       # Main landing page
 ├── properties.html  # Listing directory
 └── contact.html     # Inquiry and lead generation page
-
-
+```
 
 ## Future Roadmap
 
