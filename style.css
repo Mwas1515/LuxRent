@@ -1,0 +1,148 @@
+/*p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: blue;
+        font-style: italic;
+        
+    }
+
+body {
+    background-color: black;
+    color: darkgray;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif; 
+    color: white; 
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif; 
+    color: skyblue; 
+    font-size: 2rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 8px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif; 
+    color: darkgray;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+img {
+    height: 600px;
+    width: 400px;
+    border-radius: 50%;
+} */
+
+/* Types of css selectors */
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+/*Element selector*/
+button{
+    padding: 0;
+    background-color: blue;
+    color: #fff;
+    margin: 4px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+body {
+    background-color: rgb(53, 52, 52);
+    color: darkgray;
+}
+img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    font-style: italic;
+}
+
+/* Class Selector */
+.container {
+    border: 1px solid red;
+    width: 500px;
+    height: 200px;
+    background-color: azure;
+}
+
+.logo-text{
+    font: bold;
+    color: aqua;}
+    
+a {text-decoration: none;
+}
+
+#portfolio {
+    border: 4px dotted green ;
+}
+/* Attribute Selector */
+a[href] {
+    color: #fff;
+}
+
+/* Descendant Selector */
+div h4 {
+    color: red;
+}
+
+/* Child Selector */
+div > P {
+    color: green;
+}
+
+/* Adjascent Sibling Selector */
+h4 + nav {
+    background-color: green;
+    color: #fff;
+}
+
+/* General Sibling Selector */
+h3 ~ p {
+    color: grey;
+}
+
+/* Group Selectors */
+h2, h3, h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color:tomato ;
+}
+
+/* Interactive state */
+.cta-btn:hover {
+background-color: red;
+color: #fff;
+}
+
+.cta-btn:active {
+    background-color: yellow;
+}
+
+input:focus {
+    border-color: rgb(152, 15, 170);
+}
+
+a::before {
+    content: "Navigation Links :" ;
+    color: red;
+}
+
+a::after {
+    content: "Citation :" ;
+    color: chocolate;
+}
+
